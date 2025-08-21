@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentient Extension</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="popup-header-content">
+                <div class="dobby-popup-placeholder"><img src="../assets/dobby-character.png"  alt=""></div>
+                <h1>Ask Dobby</h1>
+            </div>
+            <div class="header-text">
+                <!-- <h1>Sentient AI Dobby</h1> -->
+                <p class="subtitle">Your Loyal AI Assistant</p>
+            </div>
+        </div>
+        
+        <div class="quick-actions">
+            <button id="analyzePageBtn" class="action-btn" title="Analyze current page">
+                📄 Analyze Page
+            </button>
+            <button id="summarizeBtn" class="action-btn" title="Summarize page content">
+                📝 Summarize
+            </button>
+            <button id="searchBtn" class="action-btn" title="Web search">
+                🔍 Search
+            </button>
+            <button id="extractDataBtn" class="action-btn" title="Extract key data">
+                📊 Extract Data
+            </button>
+        </div>
+        
+        <div class="chat-container">
+            <div id="chatHistory" class="chat-history">
+                <div class="message dobby-message">
+                    <div class="message-content">
+                        <strong>Dobby:</strong> Hello! I'm Dobby, your loyal AI assistant. How can I help you today?
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <textarea id="messageInput" placeholder="Ask Dobby anything or use quick actions above..." rows="2" maxlength="1000"></textarea>
+            <button id="sendButton">Send</button>
+        </div>
+        
+        <div class="footer">
+            <small>Powered by Sentient AGI</small>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
