@@ -11,6 +11,7 @@ A powerful Chrome extension that brings AI assistance directly to your browser w
 - **Quick Actions**: Instant page analysis, summarization, search, and data extraction
 - **Secure Architecture**: Local server proxy protects API keys
 - **Modern UI**: Clean, responsive design with smooth animations
+- **UNhinged Model**
 
 ## Installation
 
@@ -90,7 +91,7 @@ The extension uses a **secure server-side proxy** architecture to protect API ke
    **Environment Setup:**
    ```bash
    # In your server's .env file
-   SENTIENT_API_KEY=fw_3ZgMMm3qz8T7EDaW2ZDFBiuP
+   SENTIENT_API_KEY= YOUR_API_KEY
    ```
 
 ## Project Structure
